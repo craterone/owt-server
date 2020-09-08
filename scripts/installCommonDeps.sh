@@ -271,7 +271,7 @@ install_licode(){
   local LINK_PATH="$ROOT/source/agent/webrtc/webrtcLib"
   pushd ${ROOT}/third_party >/dev/null
   rm -rf licode
-  git clone https://github.com/lynckia/licode.git
+  git clone https://gitee.com/sixren/licode.git
   pushd licode >/dev/null
   git reset --hard $COMMIT
 
